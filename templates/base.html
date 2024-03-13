@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой магазин</title>
+</head>
+<body>
+    <header>
+        <h1>Мой магазин</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Главная</a></li>
+                <li><a href="/clothing">Одежда</a></li>
+                <li><a href="/shoes">Обувь</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Магазинчик</p>
+    </footer>
+</body>
+</html>
